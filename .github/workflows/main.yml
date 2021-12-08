@@ -24,7 +24,7 @@ jobs:
       run: dotnet publish StartPage.csproj -c Release -o release --nologo      
       
     - name: Commit wwwroot to GitHub Pages
-      uses: Spenn1/github-pages-deploy-action@3.7.1
+      uses: Spenn1/github-pages-deploy-action@2.285.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
