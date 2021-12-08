@@ -28,4 +28,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: bin/release/wwwroot
+        FOLDER: bin/Release/netcoreapp3.1.1/publish/wwwroot
